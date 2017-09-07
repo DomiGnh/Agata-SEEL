@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+#main-nav{
+    padding: 20px 0;
+    text-transform: uppercase;
+    background-color: #FFF;
+    
+}
+
+#main-nav > .container > .navbar-header > .kolor{
+    color:#bca474;
+}
+
+#main-menu > ul.nav > li > a.kolor{
+   color:#bca474;}
+
+
