@@ -52,6 +52,7 @@ body {
     background-position: center;
     background-size: cover;
     position:relative;
+     background-attachment: fixed;
     
 }
 
@@ -212,10 +213,28 @@ header#main-header div.header-caption h1{
 }
 
 #cennik{
+    height: 50vh;
+    background-color: #fff;
+    position: relative;
     
 }
 
+#cennik >#ceny{
+    height: 50vh;
+    width: 50%;
+    border: 1px solid #bca474;
+    border-radius: 15%;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 70px;
+    
+}
 
+#cennik h3{
+    font-size: 2.5em;
+}
 
 
 
