@@ -1,0 +1,129 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+    color: #757575;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+#main-nav {
+    padding: 20px 0;
+    text-transform: uppercase;
+    background-color: #FFF;
+}
+
+#main-nav>.container>.navbar-header>.kolor {
+    color: #bca474;
+}
+
+#main-menu>ul.nav>li>a.kolor {
+    color: #bca474;
+}
+
+.icons {
+    position: absolute;
+    top: 35px;
+    right: 80px;
+}
+
+.icons>ul>li {
+    list-style: none;
+}
+
+.icons>ul>li>a {
+    color: #bca474;
+}
+
+#main-menu>ul.nav>li>a.kolor:hover {
+    color: #757575;
+}
+
+.icons>ul>li>a:hover {
+    color: #757575;
+}
+
+/*sekcja makijaz pernamnenty*/
+
+section#tuszusta{
+    border: 2px solid #bca474;
+    height: 50vh;
+    margin-top: 200px;
+    
+    }
+
+section#tuszusta > h1{
+    color:#bca474;
+    padding: 30px 0 0 0;
+}
+
+section#tuszusta > p{
+    padding: 50px 40px;
+}
+
+/*seckja cieniowanie*/
+
+#cieniowanie{
+    height: 90vh;
+    margin-top:200px; 
+}
+
+#cieniowanie >h1{
+    color: #bca474;
+    margin-bottom: 70px;
+}
+
+#cieniowanie > .usta{
+border: 1px solid #bca474;
+    width: 50%;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
+}
+
+#cieniowanie > .usta1{
+    background-image: url(../img/ustacale.png);
+}
+
+#cieniowanie > .usta2{
+    background-image: url(../img/ustacale.png);
+}
+
+#cieniowanie > .metoda >h3 {
+    
+    margin-top: 50px;
+    font-size: 1.9em;
+    font-weight: 700;
+
+    
+}
+
+#cieniowanie > .metoda >p {
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
