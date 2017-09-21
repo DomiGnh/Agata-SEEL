@@ -103,6 +103,96 @@ border: 1px solid #bca474;
     padding: 30px;
 }
 
+/*sekcja wypełnianie*/
+
+
+
+
+#wypelnienie{
+    height: 90vh;
+    margin-top:200px; 
+}
+
+#wypelnienie >h1{
+    color: #bca474;
+    margin-bottom: 70px;
+}
+
+#wypelnienie > .usta{
+border: 1px solid #bca474;
+    width: 50%;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
+}
+
+#wypelnienie > .usta1{
+    background-image: url(../img/ustacale.png);
+}
+
+#wypelnienie > .usta2{
+    background-image: url(../img/ustacale.png);
+}
+
+#wypelnienie > .metoda >h3 {
+    
+    margin-top: 50px;
+    font-size: 1.9em;
+    font-weight: 700;
+
+    
+}
+
+#wypelnienie > .metoda >p {
+    padding: 30px;
+}
+
+/*sekcja przygotowanie do zabiegu*/
+
+#zabieg{
+    height: 85vh;
+    margin-top: 80px;
+    
+}
+
+#zabieg >  h1{
+    color: #bca474;
+    margin-top: 100px;
+}
+
+
+#zabieg .zabiegi{
+    margin-top: 70px;
+}
+
+#zabieg .row .foto{
+    background-position:center;
+    background-size: cover;
+    height: 320px;
+    background-image: url(../img/cieniowanie.jpg);
+}
+
+#zabieg .zabiegi .mani > h3{
+    font-weight: 700;
+}
+
+#zabieg .zabiegi .mani> p{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
