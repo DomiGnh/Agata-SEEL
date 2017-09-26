@@ -90,72 +90,8 @@ section#tuszusta .rama > p{
 }
 */
 
-#cieniowanie > .usta{
-border: 1px solid #bca474;
-    width: 50%;
-    height: 270px;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-#cieniowanie > .usta1{
-    background-image: url(../img/ustacale.png);
-}
-
-#cieniowanie > .usta2{
-    background-image: url(../img/ustacale.png);
-}
-
-#cieniowanie > .metoda >h1 {
-    
-    color: #bca474;
-    margin-top: 70px;
-    
-
-    
-}
-
-#cieniowanie > .metoda >p {
-    padding: 30px;
-}
-
-/*sekcja wypełnianie*/
 
 
-
-
-#wypelnienie{
-    height: 100vh;
-    margin-top:100px; 
-}
-
-#wypelnienie .metoda >h1{
-    color: #bca474;
-    margin-top: 70px;
-}
-
-#wypelnienie > .usta{
-border: 1px solid #bca474;
-    width: 50%;
-    height: 270px;
-    background-position: center;
-    background-size: cover;
-}
-
-#wypelnienie > .usta1{
-    background-image: url(../img/ustacale.png);
-}
-
-#wypelnienie > .usta2{
-    background-image: url(../img/ustacale.png);
-}
-
-
-
-#wypelnienie > .metoda >p {
-    padding: 30px;
-}
 
 /*sekcja przygotowanie do zabiegu*/
 
