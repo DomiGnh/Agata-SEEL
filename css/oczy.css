@@ -79,7 +79,7 @@ section#tuszusta .rama > p{
 /*sekcja kreski*/
 
 #kreski{
-   
+   height: 80vh;
 }
 
 #kreski header > h1{
@@ -97,6 +97,7 @@ section#tuszusta .rama > p{
 #kreski .portfolio-image-container{
     height: 300px;
     overflow: hidden;
+    
 }
 
 #kreski .single-portfolio-item .portfolio-image{
