@@ -1,0 +1,136 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+    color: #757575;
+    
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.foto{
+   
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 10%;
+}
+
+
+.opis{
+    height: 50vh;
+    margin-top: 10%;
+}
+h1{
+    color: #bca474;
+    padding: 20px;
+    font-size: 2.5em;
+}
+
+p{
+
+    padding: 20px 30px;
+    
+}
+/*nawigacja */
+
+
+
+
+#main-nav {
+    padding: 20px 0;
+    text-transform: uppercase;
+    background-color: #FFF;
+}
+
+#main-nav>.container>.navbar-header>.kolor {
+    color: #bca474;
+}
+
+#main-menu>ul.nav>li>a.kolor {
+    color: #bca474;
+}
+
+.icons {
+    position: absolute;
+    top: 35px;
+    right: 80px;
+}
+
+.icons>ul>li {
+    list-style: none;
+}
+
+.icons>ul>li>a {
+    color: #bca474;
+}
+
+#main-menu>ul.nav>li>a.kolor:hover {
+    color: #757575;
+}
+
+.icons>ul>li>a:hover {
+    color: #757575;
+}
+
+/*koniec nawigacji*/
+
+
+/*sekcja mkijaz brwii*/
+
+section#brwi{
+    
+    height: 100vh;
+    
+    position: relative;
+    
+    }
+
+section#brwi .rama{
+    position: absolute;
+    height: 50vh;
+    margin-top: 200px;
+    border: 1px solid #bca474;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+    
+}
+
+section#brwi .rama > h1{
+    color:#bca474;
+    padding: 30px 0 0 0;
+}
+
+section#brwi .rama > p{
+    padding: 50px 40px;
+}
+/*sekcja ombre*/
+
+#ombre{
+    height: 70vh;
+}
+
+#ombre #foto1ombre{
+    background-image: url(../img/ombre.jpg); 
+}
+
+#wlos #wlosfoto{
+    background-image: url(../img/wlos.jpg);
+}
+
+#micro #fotomicro{
+    background-image: url(../img/micro.jpg);
+}
+
+
+#mieszane #fotomieszane{
+    background-image: url(../img/mieszane.jpg);
+}
+
+
+
+
+
+
