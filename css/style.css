@@ -66,9 +66,9 @@ header#main-header div.header-caption h1{
 
 /*sekcja o mnie*/
 #about .container-fluid{
-
-   margin-top: 100px;
-    padding: 0px;
+    
+  margin-top: 100px;
+    padding: 0;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -79,7 +79,8 @@ header#main-header div.header-caption h1{
 }
 
 #about .container-fluid .omnie-mask{
-background-color: rgba(23, 23, 9, 0.3);
+
+    background-color: rgba(23, 23, 9, 0.3);
     width: 100%;
     height: 100%;
     padding: 0;
@@ -96,11 +97,6 @@ background-color: rgba(23, 23, 9, 0.3);
 }
 
 
-
-
-    
-    
-
 #about .omnie p {
     color: #fff;
     font-weight: 300;
@@ -116,8 +112,8 @@ background-color: rgba(23, 23, 9, 0.3);
 
 
 #makeup{
-    height: 80vh;
-    margin-top: 100px;
+    height: 100vh;
+    padding-top: 150px;
 }
 
 #makeup h2 {
@@ -146,113 +142,82 @@ background-color: rgba(23, 23, 9, 0.3);
 }
 
 
-/*sekcja makijaz*/
-#makijaz{
-margin-top: 100px;
+/*sekcja nasze uslugi*/
+
+#uslugi{
+height: 100vh;
+    
 }
 
-#makijaz h2{
-    margin-bottom: 70px;
+#uslugi h2{
+    padding-top: 100px;
     font-size: 3em;
 }
 
-#makijaz .row{
-    top: 200px;
- 
-}
 
-#makijaz .row img{
-    width: 300px;
-    height: 200px;
-}
-
-#makijaz .row a.btn{
-    background-color: #bca474;
-    border: 1px solid #fff;
-    text-transform: uppercase;
-    margin-top: 30px;
-}
-
-
-/*sekcja manicure*/
-
-
-#manicure {
-    height: 130vh;
-    margin-top: 100px;
+#uslugi .row {
+   padding: 50px;
+   
+    
     }
 
-#manicure > h1{
-    font-size: 3em;
-}
-
-#manicure .pazury{
-    margin-top: 70px;
-}
-
-#manicure .row .foto{
-    background-position:center;
+#uslugi .row .foto{
+    width: 350px;
+    height: 250px;
+    background-position: center;
     background-size: cover;
-    height: 300px;
+    position: relative;
+    padding: 0;
+    }
+
+#uslugi .row .foto .uslugi-mask > h3{
+    padding-top: 100px;
+    font-size: 2.5em;
+    font-weight: 400;
+    color:#fff;
+    text-transform: uppercase;
 }
 
-#manicure .row #foto1{
+#uslugi .row .foto .uslugi-mask{
+    position: absolute;
+    background-color: rgba(23, 23, 9, 0.4);
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+
+}
+
+
+#uslugi .row #usta{
+    background-image: url(../img/cieniowanie.jpg);
+}
+
+#uslugi .row #oczy{
+    background-image: url(../img/500_F_133510932_NGdT9nN1h88p23cpjpTRoEs5rTao5HlJ.jpg);
+}
+
+#uslugi .row #brwi{
+    background-image: url(../img/500_F_80845467_Yln6QmxpDafV6ea83GFvFxConz4krXZF.jpg);
+}
+
+#uslugi .row #hybryda{
     background-image: url(../img/zel.jpg);
 }
 
-#manicure .row #foto2{
-    background-image:url(../img/pazury%20hybryda.jpg)
-}
+#uslugi .row #manicure{
+background-image: url(../img/manicure.jpg);}
 
-#manicure .row .mani> h3{
-    padding: 30px 10px;
-}
-
-#manicure .row .mani> p{
-    padding: 0 15px;
-}
-
-
-
-/*sekcja cennik*/
-
-#paralaxa{
-    margin-top: 100px;
-    height:70vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: url(../img/manicure.jpg);
-}
-
-
-
-
-#cennik{
-    height: 100vh;
-    background-color: #fff;
-    position: relative;
-    margin-top: 0;
+#uslugi .row a.btn{
+    background-color: #bca474;
+    border: 1px solid #fff;
+    text-transform: uppercase;
     
 }
 
-#cennik >#ceny{
-    height: 80vh;
-    width: 50%;
-    border: 1px solid #bca474;
-    
-   position: absolute; 
-    left: 50%;
-   top:50%;
-   transform: translate(-50%, -50%);
-    margin-top: 0;
-    
-}
 
-#cennik h3{
-    font-size: 2.5em;
-}
+
+
+
 
 /*sekcja opinie klientów
 */
@@ -265,8 +230,8 @@ margin-top: 100px;
 
 
 #opinie .klient .col-sm-4 img{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
 
