@@ -66,34 +66,50 @@ header#main-header div.header-caption h1{
 
 /*sekcja o mnie*/
 #about {
-    margin-top: 75px;
-    overflow: hidden;
+/*    margin-top: 75px;*/
+   margin-top: 100px;
+    height:70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/manicure.jpg);
     height:85vh;
+    opacity: 1;
 }
-#about h2 {
+#about > h2 {
     text-align: center;
-    color: #bca474;
+    color: #fff;
     font-size: 3em;
+    padding-top: 150px;
+  
 }
-#about figure {
-    text-align: center;
-}
-#about .col-sm-6 {
-    margin-top: 3%;
-}
-#about figure img {
-    width: 350px;
-    height: 250px;
-    border: 2px solid #bca474;
-    border-radius: 50%;
+
+
+
+
     
     
-}
-#about div p {
+
+#about .omnie p {
+    color: #fff;
     font-weight: 300;
     line-height: 25px;
-    padding: 30px
+    padding:0 20%;
+        
 }
+
+/*
+#paralaxa{
+    margin-top: 100px;
+    height:70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/manicure.jpg);
+}
+*/
 
 
 
@@ -102,6 +118,7 @@ header#main-header div.header-caption h1{
 
 #makeup{
     height: 80vh;
+    margin-top: 100px;
 }
 
 #makeup h2 {
@@ -175,7 +192,7 @@ header#main-header div.header-caption h1{
 #manicure .row .foto{
     background-position:center;
     background-size: cover;
-    height: 320px;
+    height: 300px;
 }
 
 #manicure .row #foto1{
@@ -199,6 +216,7 @@ header#main-header div.header-caption h1{
 /*sekcja cennik*/
 
 #paralaxa{
+    margin-top: 100px;
     height:70vh;
     width: 100%;
     background-position: center;
@@ -209,29 +227,25 @@ header#main-header div.header-caption h1{
 
 
 
-.content{
-    width: 100%;
-    padding: 70px 23%;
-    line-height: 30px;
-}
 
 #cennik{
-    height: 70vh;
+    height: 100vh;
     background-color: #fff;
     position: relative;
+    margin-top: 0;
     
 }
 
 #cennik >#ceny{
-    height: 60vh;
+    height: 80vh;
     width: 50%;
     border: 1px solid #bca474;
-    border-radius: 15%;
-    position: absolute; 
+    
+   position: absolute; 
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 90px;
+   top:50%;
+   transform: translate(-50%, -50%);
+    margin-top: 0;
     
 }
 
