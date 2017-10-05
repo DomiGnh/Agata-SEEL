@@ -1,11 +1,19 @@
 * {
     margin:0;
     box-sizing: border-box;
-    color: #bca474;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    
+
+
 }
 
-body {
-    font-family: 'Roboto Slab', serif;
+h1{
+   font-family: 'Yellowtail', cursive; 
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
 }
 
 #main-nav {
@@ -14,13 +22,6 @@ body {
     background-color: #FFF;
 }
 
-#main-nav>.container>.navbar-header>.kolor {
-    color: #bca474;
-}
-
-#main-menu>ul.nav>li>a.kolor {
-    color: #bca474;
-}
 
 .icons {
     position: absolute;
@@ -32,19 +33,20 @@ body {
     list-style: none;
 }
 
-.icons>ul>li>a {
-    color: #bca474;
-}
+
 
 #main-menu>ul.nav>li>a.kolor:hover {
-    color: #757575;
+    color:#FAB89D;
 }
 
 .icons>ul>li>a:hover {
-    color: #757575;
+    color:#FAB89D;
 }
 
 /*slider start*/
+header .container-fluid{
+    padding:0;
+}
  header#main-header div.header-caption{
     background-image: url(../img/salon.jpg);
     width: 100%;
@@ -52,7 +54,7 @@ body {
     background-position: center;
     background-size: cover;
     position:relative;
-     background-attachment: fixed;
+/*     background-attachment: fixed;*/
     
 }
 
@@ -64,10 +66,80 @@ header#main-header div.header-caption h1{
 }
 
 
-/*sekcja o mnie*/
-#about .container-fluid{
+/*sekcja nasze usługi*/
+
+
+#uslugi {
+    text-transform: uppercase;
+    height: 100vh;
+    padding-top: 10%;
+}
+#uslugi .row{
+    margin-left: 8%;
+}
+
+#uslugi .row .foto{
+    width: 245px;
+    height: 245px;
+    padding: 0;
+    list-style: none;
+   
+}
+
+#uslugi .row .foto >img{
+    width: 245px;
+    height: 245px;
+    background-size: cover;
+    background-position: center;
+}
+
+#uslugi .row #pink{
+    background-color:#FAB89D;
+    color: #fff;
     
-  margin-top: 100px;
+}
+
+#uslugi .row #pink li{
+    color: #fff;
+    list-style: none;
+}
+
+#uslugi .row #black{
+    background-color: black;
+    color: #fff;
+}
+
+#uslugi .row #black li{
+    color: #fff;
+    list-style: none;
+    
+}
+#uslugi .row-1 #white-brwi ul{
+    text-align: center;
+}
+#uslugi .row-1 #white-brwi li{
+    list-style: none;
+}
+#uslugi #pazury{
+    background-color: #FAB89D;
+    color: #fff;
+    list-style: none;
+}
+
+#uslugi #pazury li{
+    list-style: none;
+    color: #fff;
+}
+
+/*sekcja cennik*/
+
+#cennik{
+    padding: 100px 0;
+}
+
+#cennik .container-fluid{
+    
+/* margin-top: 100px;*/
     padding: 0;
     background-position: center;
     background-size: cover;
@@ -78,153 +150,43 @@ header#main-header div.header-caption h1{
    
 }
 
-#about .container-fluid .omnie-mask{
-
+#cennik .container-fluid .cennik-mask{
+    background-attachment: fixed;
     background-color: rgba(23, 23, 9, 0.3);
     width: 100%;
     height: 100%;
-    padding: 0;
     position: absolute;
-    
-}
-
-#about .container-fluid .omnie-mask > h2 {
-    
-    color: #fff;
-    font-size: 3em;
-    padding-top: 150px;
-  
-}
-
-
-#about .omnie p {
-    color: #fff;
-    font-weight: 300;
-    line-height: 25px;
-    padding:0 20%;
-        
-}
-
-
-
-
-/*skecja makeup*/
-
-
-#makeup{
-    height: 100vh;
-    padding-top: 150px;
-}
-
-#makeup h2 {
-    text-align: center;
-    color: #bca474;
-    font-size: 3em;
-}
-#makeup figure {
-    text-align: center;
-}
-#makeup .col-sm-6 {
-    margin-top: 3%;
-}
-#makeup figure img {
-
-    max-width: 100%;
-    max-height: auto;
-
-    border: 10px solid #fff;
-    border-radius: 50%;
-}
-#makeup div p {
-    font-weight: 300;
-    line-height: 25px;
-    padding: 30px
-}
-
-
-/*sekcja nasze uslugi*/
-
-#uslugi{
-height: 100vh;
-    
-}
-
-#uslugi h2{
-    padding-top: 100px;
-    font-size: 3em;
-}
-
-
-#uslugi .row {
-   padding: 50px;
-   
-    
-    }
-
-#uslugi .row .foto{
-    width: 350px;
-    height: 250px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
     padding: 0;
-    }
-
-#uslugi .row .foto .uslugi-mask > h3{
-    padding-top: 100px;
-    font-size: 2.5em;
-    font-weight: 400;
-    color:#fff;
-    text-transform: uppercase;
 }
 
-#uslugi .row .foto .uslugi-mask{
-    position: absolute;
-    background-color: rgba(23, 23, 9, 0.4);
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-
+#cennik .container-fluid .cennik-mask > h2 {
+     color: #fff;
+    font-size: 4em;
+    
 }
 
-
-#uslugi .row #usta{
-    background-image: url(../img/cieniowanie.jpg);
-}
-
-#uslugi .row #oczy{
-    background-image: url(../img/500_F_133510932_NGdT9nN1h88p23cpjpTRoEs5rTao5HlJ.jpg);
-}
-
-#uslugi .row #brwi{
-    background-image: url(../img/500_F_80845467_Yln6QmxpDafV6ea83GFvFxConz4krXZF.jpg);
-}
-
-#uslugi .row #hybryda{
-    background-image: url(../img/zel.jpg);
-}
-
-#uslugi .row #manicure{
-background-image: url(../img/manicure.jpg);}
-
-#uslugi .row a.btn{
-    background-color: #bca474;
-    border: 1px solid #fff;
-    text-transform: uppercase;
+#cennik .container-fluid .ceny h2{
+    color: #fff;
     
 }
 
 
 
-
+#cennik .container-fluid .cennik-mask .ceny > ul>li {
+     background-attachment: fixed;
+    font-size: 1.5em;
+    color: #fff;
+    list-style: none;
+    
+    
+}
 
 
 /*sekcja opinie klientów
 */
 
 #opinie .opinie-caption{
-    margin-bottom: 40px;
-    margin-top: 200px;
+   padding: 50px 0;
     
 }
 
@@ -241,20 +203,48 @@ background-image: url(../img/manicure.jpg);}
     padding: 30px 50px 0 50px;
 }
  
+/*sekcja o mnie*/
+#about{
+    padding: 150px 0 100px 0;
+}
+
+#about h2{
+    font-size: 2.5em;
+    
+    text-transform: uppercase;
+ 
+    
+}
+
+#about p{
+    font-size: 1.3em;
+    
+}
+
+
 /*kontakt*/
 
 
+
+
 #contact{
-    height:90vh;
-    background-color: #bca474;
-    margin-top: 100px;
+
+    background-color: #FAB89D;
+    padding: 70px 0;
     
 }
 
 #contact h2, #contact p{
-    color: #fff;  
-    margin-top: 100px;
-    margin-bottom: 50px;
+    color: #fff;
+    
+}
+#contact header> h2{
+    margin-bottom: 30px;
+}
+
+#contact p{
+    font-size: 1.5em;
+   
 }
   
 #contact input:not([type='submit']), #contact textarea{
@@ -265,7 +255,7 @@ background-image: url(../img/manicure.jpg);}
 
 #contact input, #contact textarea{
     text-transform: uppercase;
-    padding: 15px;
+    padding: 7px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 5px;
 }
@@ -276,11 +266,15 @@ background-image: url(../img/manicure.jpg);}
 }
 
 #contact input[type='submit']{
-    margin-top: 30px;
+    margin-top: 20px;
+    background-color:black;
+    color: #fff;
+    
+    
 }
 
 #contact input[type='submit']:hover{
-    background-color: #bca474;
+    background-color: #FAB89D;;
     color:#fff;
     border: 2px solid #fff;
     font-weight: 700;

@@ -53,7 +53,6 @@ h1{
 section#tuszusta{
     
     height: 100vh;
-    
     position: relative;
     
     }
@@ -64,6 +63,7 @@ section#tuszusta .rama{
     margin-top: 200px;
     border: 1px solid #bca474;
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+    padding: 30px 0 0 0;
     
 }
 
@@ -76,86 +76,14 @@ section#tuszusta .rama > p{
     padding: 50px 40px;
 }
 
-/*seckja cieniowanie*/
-
-#cieniowanie{
-    height: 100vh;
-    margin-top:100px; 
-}
-
-/*
-#cieniowanie >h1{
-    color: #bca474;
-    margin-bottom: 70px;
-}
-*/
-
-#cieniowanie > .usta{
-border: 1px solid #bca474;
-    width: 50%;
-    height: 270px;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-#cieniowanie > .usta1{
-    background-image: url(../img/ustacale.png);
-}
-
-#cieniowanie > .usta2{
-    background-image: url(../img/ustacale.png);
-}
-
-#cieniowanie > .metoda >h1 {
-    
-    color: #bca474;
-    margin-top: 70px;
-    
-
-    
-}
-
-#cieniowanie > .metoda >p {
-    padding: 30px;
-}
-
-/*sekcja wypełnianie*/
 
 
 
 
-#wypelnienie{
-    height: 100vh;
-    margin-top:100px; 
-}
-
-#wypelnienie .metoda >h1{
-    color: #bca474;
-    margin-top: 70px;
-}
-
-#wypelnienie > .usta{
-border: 1px solid #bca474;
-    width: 50%;
-    height: 270px;
-    background-position: center;
-    background-size: cover;
-}
-
-#wypelnienie > .usta1{
-    background-image: url(../img/ustacale.png);
-}
-
-#wypelnienie > .usta2{
-    background-image: url(../img/ustacale.png);
-}
 
 
 
-#wypelnienie > .metoda >p {
-    padding: 30px;
-}
+
 
 /*sekcja przygotowanie do zabiegu*/
 
