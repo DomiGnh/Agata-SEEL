@@ -51,42 +51,24 @@ h3{
 
 header .container-fluid{
     padding:0;
-}
- header#main-header div.header-caption{
+    position: relative;
     background-image: url(../img/twarz.jpg);
     width: 100%;
     height: 75vh;
     background-position: center;
     background-size: cover;
-    position:relative;
+}
+
+ header#main-header div.header-caption{
+     
+     padding-left: 80px;
+     padding-top: 250px;
+     position:absolute;
      background-attachment: fixed;*/
+     color: #1f1f14;
+     font-size: 1.7em;
     
 }
-
-header#main-header div.header-caption h1{
-    position: absolute;
-    right: 55%;
-    top: 60%;
-    text-transform: uppercase;
-}
-
-header#main-header .header-caption span{
-    font-family: 'Montserrat', sans-serif;
-    color:#1f1f14 ;
-    font-size: 1em;
-}
-
-header#main-header .header-caption h1{
-    font-size: 2em;
-    color:#1f1f14;
-}
-
-
-
-
-
-
-
 
 
 
