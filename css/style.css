@@ -45,7 +45,7 @@ h3{
     color:#FAB89D;
 }
 
-/*slider start*/
+/*header start*/
 header .container-fluid{
     padding:0;
 }
@@ -84,8 +84,6 @@ header#main-header .header-caption h1{
 
 #uslugi {
     text-transform: uppercase;
-/*    height: 100vh;*/
-    padding-top: 10%;
 }
 #uslugi .row{
     margin-left: 8%;
@@ -221,11 +219,7 @@ section#about{
 #about .container-fluid .row h1{
    color: #fff;
     font-family: 'Yellowtail', cursive;
-    font-size: 3em;
-/*
-    margin-top: 10px;
-    
-*/
+    font-size: 3.5em;
     
 }
 
@@ -235,6 +229,7 @@ border-right: 2px solid #FAB89D; }
 #about .container-fluid .row #info> h2{
     color:  #FAB89D;
     font-family: 'Yellowtail', cursive;
+    font-size: 3em;
 }
 
 
@@ -245,6 +240,9 @@ border-right: 2px solid #FAB89D; }
     margin-top: 30px;
 }
 
+#about .container-fluid .row #omnie > p{
+    padding: 20px;
+}
 
 
 
@@ -252,44 +250,16 @@ border-right: 2px solid #FAB89D; }
 /*sekcja opinie klientów
 */
 
-#opinie .opinie-caption{
-   padding: 50px 0;
-    
+#opinie{
+    margin-top: 0;
+    padding-bottom: 50px;
 }
 
-
-#opinie .klient .col-sm-4 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
+#opinie .container .row >h2{
+  margin-bottom: 70px; 
+   font-family: 'Yellowtail', cursive;
+    font-size: 3.5em;
 }
-
-
-#opinie .team-description{
-    
-    padding: 30px 50px 0 50px;
-}
- 
-/*sekcja o mnie*/
-/*
-#about{
-    padding: 150px 0 100px 0;
-}
-
-#about h2{
-    font-size: 2.5em;
-    
-    text-transform: uppercase;
- 
-    
-}
-
-#about p{
-    font-size: 1.3em;
-    
-}
-*/
-
 
 /*kontakt*/
 
@@ -297,24 +267,22 @@ border-right: 2px solid #FAB89D; }
 
 
 #contact{
-
-    background-color: #FAB89D;
+    background-image: url(../img/tlo-rozowe.jpg);
+    background-position: center;
+    background-size: cover;
+/*    background-color: #FAB89D;*/
     padding: 70px 0;
     
 }
 
-#contact h2, #contact p{
-    color: #fff;
-    
-}
+
 #contact header> h2{
     margin-bottom: 30px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 3.5em;
+    color: #fff;
 }
 
-#contact p{
-    font-size: 1.5em;
-   
-}
   
 #contact input:not([type='submit']), #contact textarea{
     width: 100%;
@@ -336,14 +304,18 @@ border-right: 2px solid #FAB89D; }
 
 #contact input[type='submit']{
     margin-top: 20px;
-    background-color:black;
-    color: #fff;
+    background-color:#fff;
     
+    font-family: 'Yellowtail', cursive;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #000;
     
 }
 
 #contact input[type='submit']:hover{
-    background-color: #FAB89D;;
+    background-color: #FAB89D;
     color:#fff;
     border: 2px solid #fff;
     font-weight: 700;
