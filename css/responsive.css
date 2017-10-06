@@ -1,0 +1,33 @@
+
+@media (min-width: 720px)and (max-width: 1170px){
+    #cennik{
+      height: 120vh;
+}
+  
+    
+    
+    
+    
+}
+
+@media (max-width: 750px){
+    #cennik{
+        height: 180vh;}
+        
+       
+        #about .container-fluid .row #info{
+border-bottom: 2px solid #FAB89D; } 
+    
+        
+    }
+    
+    @media (max-width: 500px){
+        #cennik {
+            height: 200vh;
+           background-color: black;
+            padding: 0;
+    }
+}
+        
+
+    
