@@ -6,7 +6,7 @@
 }
 
 section{
-    padding: 100px 0;
+    padding: 100px 0 0 0;
     margin-top: 5%;
 }
 
@@ -47,32 +47,100 @@ h3{
 }
 
 
-/*header*/
 
-header .container-fluid{
-    padding:0;
-    position: relative;
-    background-image: url(../img/twarz.jpg);
-    width: 100%;
-    height: 75vh;
+
+
+/* o maikjażu*/
+
+
+#omakijazu .container .row > p{
+    color: #000;
+}
+
+/*makijaz krok po kroku*/
+
+#kroki .container-fluid{
+    background-image: url(../img/ustacale.jpg);
     background-position: center;
     background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+
 }
 
- header#main-header div.header-caption{
-     
-     padding-left: 80px;
-     padding-top: 250px;
-     position:absolute;
-     background-attachment: fixed;*/
-     color: #1f1f14;
-     font-size: 1.7em;
-    
+#kroki .container-fluid > .kroki-opis{
+    width: 60%;
+    height: 80%;
+    margin: 5% 20%;
+    background-color: #000;
 }
 
 
+#kroki .container-fluid .kroki-opis > h1, p {
+    color: #fff;
+    padding: 10px;
+}
 
+/*przed i po zabiegu*/
 
+section#przed-po{
+    background-color: #000;
+    margin-top: 0;
+    padding-bottom: 70px;
+   
+}
+
+#przed-po .container-fluid .row >h1{
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+#przed-po .container-fluid .row .opis-zabiegu {
+    background-color: #fff;
+   }
+
+#przed-po .container-fluid .row .opis-zabiegu .col-sm-6 > h2{
+    color: #FAB89D;
+    font-family: 'Yellowtail', cursive; 
+}
+
+#przed-po .container-fluid .row .opis-zabiegu .col-sm-6 > p{
+    color: #000;
+    padding: 15px;
+}
+
+#przed-po .container-fluid .row .opis-zabiegu #przed > p{
+    border-right: 2px solid #FAB89d;
+}
+
+/*przeciwskazania*/
+
+section#przeciw{
+  padding-top: 0px;   
+}
+
+#przeciw .container #call > h2 {
+    font-size: 2.5em;
+    color: #FAB89d;
+     font-family: 'Yellowtail', cursive; 
+    padding-top: 30px;
+}
+
+#przeciw .container #call > p{
+    color: #000;
+}
+
+#przeciw .container #call span{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/*galeria*/
+
+#galeria{
+    background-color: #fab89d;
+}
 
 
 

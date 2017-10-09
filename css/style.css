@@ -84,19 +84,20 @@ header#main-header .header-caption h1{
 
 #uslugi {
     text-transform: uppercase;
-}
-#uslugi .row{
-    margin-left: 8%;
+    padding: 100px 0;
 }
 
+
 #uslugi .row .foto{
-    width: 245px;
-    height: 245px;
-    padding: 0;
+   width: 25%;
+/*    przy rwd szerokość trzeba dać 50% dla 2 obok siebie lub 100% jak chce zeby było tylko 1*/
+   height: 250px;
+   padding: 0;
     list-style: none;
     position: relative;
-   
 }
+
+
 
 #uslugi .row .foto .lista{
     position: absolute;
@@ -109,25 +110,27 @@ header#main-header .header-caption h1{
 }
 
 #uslugi .row .foto #lista-usta{
-    left: 13%;
-    top: 60%;
+    left: 17%;
+    top: 55%;
 }
 
 #uslugi .row .foto >img{
-    width: 245px;
-    height: 245px;
+    width: 100%;
+    height: 250px;
     background-size: cover;
     background-position: center;
+   
 }
 
 #uslugi .row #pink{
     background-color:#FAB89D;
-    color: #fff;
+    color: #000;
+    
     
 }
 
 #uslugi .row #pink li{
-    color: #fff;
+    color: #000;
     list-style: none;
 }
 
@@ -149,13 +152,13 @@ header#main-header .header-caption h1{
 }
 #uslugi #pazury{
     background-color: #FAB89D;
-    color: #fff;
+    color: #000;
     list-style: none;
 }
 
 #uslugi #pazury li{
     list-style: none;
-    color: #fff;
+    color: #000;
 }
 
 
@@ -267,10 +270,8 @@ border-right: 2px solid #FAB89D; }
 
 
 #contact{
-    background-image: url(../img/tlo-rozowe.jpg);
-    background-position: center;
-    background-size: cover;
-/*    background-color: #FAB89D;*/
+    
+  background-color: #FAB89D;*/
     padding: 70px 0;
     
 }
