@@ -1,33 +1,115 @@
 
-@media (min-width: 720px)and (max-width: 1170px){
-    #cennik{
-      height: 120vh;
-}
-  
-    
-    
-    
-    
-}
 
-@media (max-width: 750px){
+@media (max-width: 650px){
+    
+    #uslugi .row .foto > h3{
+   padding: 20px;
+    
+}
+    
     #cennik{
-        height: 180vh;}
+        height: 180vh; */
+        
+    
+    }
+    
+    
+    #cennik .container-fluid .cennik-mask{
+        widtH: 80%;
+        left: 10%;
+        padding-left: 5%;
+    
+        text-align: center;
+    }
         
        
         #about .container-fluid .row #info{
-border-bottom: 2px solid #FAB89D; } 
+border-bottom: 2px solid #FAB89D; }
     
-        
+    #uslugi .container .row .foto{
+        width: 100%;
     }
     
-    @media (max-width: 500px){
-        #cennik {
-            height: 200vh;
-           background-color: black;
-            padding: 0;
-    }
+    #about .container-fluid .row #info{
+border-right: 2px solid #fff; } 
+    
+    
+    
+
 }
+   
+
+
+
+@media (min-width: 650px)and (max-width: 980px){
+    
+    
+    #uslugi .row .foto > h3{
+   padding: 20px;
+    
+}
+    
+    
+    #cennik{
+      height: 150vh;
         
+}
+ 
+    
+    #cennik .container-fluid .cennik-mask{
+        width: 70%;
+        left: 15%;
+        padding-left: 15%;
+    }  
+    
+    
+    #uslugi .container .row .foto{
+        width: 50%;
+        float: left;
+    }
+    
+    
+    
+     #about .container-fluid .row #info{
+border-bottom: 2px solid #FAB89D;
+    
+    
+}
+    
+     #about .container-fluid .row #info{
+border-right: 2px solid #fff; } 
+    
+    
+  
+}
+    
+}
+
+@media (min-width: 980px){
+    
+    #cennik{
+      height: 120vh;
+      
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     

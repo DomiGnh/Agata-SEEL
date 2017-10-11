@@ -140,7 +140,41 @@ section#przeciw{
 
 #galeria{
     background-color: #fab89d;
+    padding-top: 70px;
 }
+
+
+#galeria .row >h1{
+    color: #fff;
+    padding-bottom: 30px;
+    
+}
+
+#galeria .row .container .foty{
+    border: 1px solid black;
+    height: 200px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -97,21 +97,36 @@ header#main-header .header-caption h1{
     position: relative;
 }
 
+#uslugi .row .foto > h3{
+   padding: 10px;
+    
+}
 
+#uslugi .row .foto .lista > ul > li{
+    padding: 0 5px;
+}
 
 #uslugi .row .foto .lista{
     position: absolute;
-    transform: translateY(25%);
-}
-
-#uslugi .row .foto #lista-pazury{
+    width: 50%;
     left: 20%;
-    top: 40%;
+    bottom: 20px;
+    
+    
 }
 
-#uslugi .row .foto #lista-usta{
-    left: 17%;
-    top: 55%;
+#uslugi .row .foto .lista > ul > li {
+    list-style: none;
+}
+
+#uslugi .row .foto #lista-oczy {
+    width: 70%; 
+    left: 10%;
+}
+
+#uslugi .row .foto #lista-brwi {
+    width: 80%; 
+    left: 5%;
 }
 
 #uslugi .row .foto >img{
@@ -129,10 +144,7 @@ header#main-header .header-caption h1{
     
 }
 
-#uslugi .row #pink li{
-    color: #000;
-    list-style: none;
-}
+
 
 #uslugi .row #black{
     background-color: black;
@@ -141,23 +153,18 @@ header#main-header .header-caption h1{
 
 #uslugi .row #black li{
     color: #fff;
-    list-style: none;
-    
 }
-#uslugi .row-1 #white-brwi ul{
-    text-align: center;
-}
-#uslugi .row-1 #white-brwi li{
-    list-style: none;
-}
+
 #uslugi #pazury{
     background-color: #FAB89D;
     color: #000;
-    list-style: none;
+
+
 }
 
+
 #uslugi #pazury li{
-    list-style: none;
+
     color: #000;
 }
 
